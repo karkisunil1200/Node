@@ -4,6 +4,8 @@ const textIn = fs.readFileSync('./txt/input.txt', 'utf-8');
 console.log(textIn);
 
 const textOut = `This is what we know about the avacado: ${textIn}.\nCreated on ${Date.now()}`;
-fs.writeFileSync('./text/output.text', textOut);
+fs.writeFileSync('./txt/output.txt', textOut);
 
-ConstantSourceNode.log('File Written');
+console.log('File written');
+
+//Non
